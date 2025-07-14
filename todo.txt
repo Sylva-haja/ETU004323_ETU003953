@@ -1,0 +1,30 @@
+1)db
+ -creation database membre
+ -creationdes differentes tables
+    membre
+    categorie_objet
+    objet
+    image_objet
+Inscription (inscription.php)
+
+Formulaire d’inscription  avec insertion en base.(check)
+
+Valeurs par défaut pour la date de naissance, ville et genre.
+
+Connexion (login.php)
+
+Vérification des identifiants depuis la base de données.
+
+Utilisation de $_SESSION pour garder l’utilisateur connecté.
+
+Affichage des objets (liste_objet.php)
+
+Affichage des objets sous forme de cartes Bootstrap.
+
+Affichage de leur catégorie et état (disponible/emprunté).
+
+Système de filtre par catégorie.
+
+Déconnexion (logout.php)
+
+Destruction de session et redirection vers la connexion
