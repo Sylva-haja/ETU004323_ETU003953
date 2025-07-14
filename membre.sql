@@ -27,10 +27,15 @@ CREATE TABLE objet (
 
 );
 
-CREATE TABLE image_objet(
+
+CREATE TABLE images_objet (
     id_image int PRIMARY KEY auto_increment,
     id_objet int,
-    nom_image VARCHAR (100),
+    nom_image VARCHAR(100),
+    is_principale BOOLEAN DEFAULT 0,
+    FOREIGN KEY (id_objet) REFERENCES objet(id_objet) ON DELETE CASCADE
+
+
     
 );
 
